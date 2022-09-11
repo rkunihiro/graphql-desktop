@@ -25,6 +25,7 @@
         "dev": "tauri dev",
         "build": "tauri build",
         "build:mac": "tauri build --target=universal-apple-darwin",
+        "build:icon": "npx @tauri-apps/tauricon src-tauri/app-icon.png",
         "clean": "rm -rf ./dist",
         "dev:frontend": "vite",
         "build:frontend": "tsc && vite build"
