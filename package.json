@@ -1,0 +1,32 @@
+{
+    "name": "graphql-desktop",
+    "version": "0.1.0",
+    "description": "",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "private": true,
+    "type": "module",
+    "dependencies": {
+        "@tauri-apps/api": "^1.0.2",
+        "graphiql": "^2.0.7",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+        "@tauri-apps/cli": "^1.0.5",
+        "@types/react": "^17.0.49",
+        "@types/react-dom": "^17.0.17",
+        "@vitejs/plugin-react": "^2.1.0",
+        "typescript": "^4.8.3",
+        "vite": "^3.1.0"
+    },
+    "scripts": {
+        "dev": "tauri dev",
+        "build": "tauri build",
+        "build:mac": "tauri build --target=universal-apple-darwin",
+        "clean": "rm -rf ./dist",
+        "dev:frontend": "vite",
+        "build:frontend": "tsc && vite build"
+    }
+}

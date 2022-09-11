@@ -1,0 +1,18 @@
+.selector {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+}
+.input {
+    background-color: #fff;
+    width: 50%;
+    padding: 8px 16px;
+}
+.button {
+    background-color: #ccc;
+    padding: 8px 16px;
+}

@@ -1,0 +1,17 @@
+/* reset */
+* {
+    appearance: none;
+    background: none transparent;
+    color: inherit;
+    font: inherit;
+    border: 0 solid #000;
+    margin: 0;
+    padding: 0;
+}
+html,
+body,
+#container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}

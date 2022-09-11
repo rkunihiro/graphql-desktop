@@ -1,0 +1,12 @@
+.vscode/
+.idea/
+dist/
+node_modules/
+logs/
+
+*.log
+*.local
+
+.DS_Store
+._*
+Thumbs.db
